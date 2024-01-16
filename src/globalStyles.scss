@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  .h-screen {
+    height: -webkit-fill-available;
+  }
+}
+
+/* Global styles */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  color: #444444;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Ubuntu,
+    'Helvetica Neue',
+    sans-serif;
+  // background-color: #fafafa;
+  background-color: black !important;
+}
+
+td,
+th {
+  padding: 4px 8px 4px 4px;
+  text-align: left;
+}
+
+th {
+  font-weight: 600;
+}
+#headerNav {
+  background-color: black;
+}
+strong {
+  color: white !important;
+}
+p {
+  color: white !important;
+}
+.text-xl {
+  color: #f97316 !important;
+}
+span {
+  color: white !important;
+}
+#social-links:hover {
+  color: rgba(249, 115, 22, 1) !important;
+}
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1px solid rgba(249, 115, 22, 1) !important;
+
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 5px 4px 4px 3px rgb(209, 125, 66) !important;
+  // box-shadow: 5px 4px 4px 3px rgb(183, 174, 167) !important;
+
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+}
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgb(209, 125, 66) !important;
+}
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}
+.tech-icons svg {
+  color: white !important;
+  // color:#f97316 !important;
+}
+.react-activity-calendar__legend-month{
+  color: white !important;
+}
+.react-activity-calendar__count{
+  color: white;
+}
