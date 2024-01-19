@@ -1,6 +1,6 @@
 /* eslint-env node */
 module.exports = {
-  siteUrl: 'fazaljoyia.github.io',
+  siteUrl: 'fazaljoyia.github.io/Portfolio',
   exclude: ['/404*', '/500*'],
   transform: async (config, path) => {
     return {
