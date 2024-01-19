@@ -12,7 +12,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/background.png';
 import porfolioImage4 from '../images/portfolio/donations.jpg';
 import porfolioImage2 from '../images/portfolio/galileo.jpg';
 import porfolioImage5 from '../images/portfolio/github-actions.jpg';
@@ -34,7 +34,7 @@ import {
 
 export const homePageMeta: HomepageMeta = {
   title: 'My Portfolio',
-  description: 'My portfolio built with react and next js',
+  description: 'React portfolio template built with react and next js',
 };
 
 export const SectionId = {
@@ -254,7 +254,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Email,
       text: 'ranafazalabbasjoyia@gmail.com',
-      href: 'ranafazalabbasjoyia@gmail.com',
+      href: 'mailto:ranafazalabbasjoyia@gmail.com',
     },
     {
       type: ContactType.Location,

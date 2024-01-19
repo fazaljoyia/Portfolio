@@ -1,6 +1,6 @@
 {
-  "name": "my-portfolio",
-  "version": "2.0.0",
+  "name": "react-portfolio-template",
+  "version": "2.0.1",
   "private": true,
   "scripts": {
     "build": "yarn compile && yarn next build && yarn next export -o docs",
